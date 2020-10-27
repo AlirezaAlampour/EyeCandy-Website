@@ -1,2 +1,2 @@
 # EyeCandy-Website
-Website for multiplatform AR app, EyeCandy.
+Website for our group project. multiplatform AR app, EyeCandy.
