@@ -1,0 +1,47 @@
+<!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto navbar-right">
+      <li  class="nav-item2 space">
+          <a [routerLink]="['/login']">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<!-- <h1>Hi {{currentUser.name}}!</h1> -->
+<!-- <p>You're logged in!</p> -->
+<!-- <h3>All Items:</h3> -->
+
+<!-- <table class="table table-hover">
+    <tbody>
+      <tr class="table-primary">
+        <th scope="row">User:</th>
+        <td></td>
+
+      </tr>
+
+    </tbody>
+  </table> -->
+  
+  <div>
+    <input
+    hidden
+    type="file"
+    #uploader
+    (change)="uploadFile($event)"
+/>
+<button class="btn btn-primary active" aria-pressed="true" (click)="uploader.click()">
+Add Item
+</button>
+<pre>
+
+</pre>
+  </div>
+
+
+
+<input (keyup)="rebuildList()" class="form-control mr-sm-2" type="text" id="search" autocomplete="off" placeholder="&#61442;  Search">
+<div id="listcontainer">
+</div>
+
+
